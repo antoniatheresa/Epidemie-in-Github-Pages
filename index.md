@@ -13,6 +13,8 @@
 <h3> 
 <a id="Sta">1. StarLogoTNG </a> 
 </h3>
+<p> StarLogoTNG ist ein Simulationsprogramm für die Blockprogrammiersprache.     
+Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfeld und dem Spaceland, wo man die Aktionen und Fortschritte der Agenten verfolgen kann. </p>
 
 <h3>
 <a id="Hom">2. Homogene Epidemie </a>

@@ -37,7 +37,7 @@ Auch die gut sortierten Variablen und Ordner machen das Programmieren einfach. <
 <h3>
 <a id="Hom">2. Homogene Epidemie </a>
 </h3>
-<p><img src="images/Boolsche.PNG" alt="Boolsche" style="width:420px;height:420px;border:0;"></p>
+<p><img src="images/Boolsche.PNG" alt="Boolsche" style="width:420px;height:200px;border:0;"></p>
 
 <p> Um eine homogene Epidemie zu erstellen, müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten. </p>
 

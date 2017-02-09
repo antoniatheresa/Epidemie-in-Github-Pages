@@ -41,16 +41,22 @@ Auch die gut sortierten Variablen und Ordner machen das Programmieren einfach. <
 
 <p> Um eine homogene Epidemie zu erstellen, müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten. </p>
 
+<p><img src="images/Ansteckungsrate.PNG" alt="Ansteckungsrate" style="width:268px;height:59px;border:0;"></p>
+
 <p> Als nächsten Schritt muss eine Ansteckungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll. <br>     
 Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können. <br>
 Danach setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.     
 Den maximalen Wert setzten wir dazu auf "100". <br>     
 Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen. </p>
 
+<p><img src="images/Giraffen.PNG" alt="Giraffen" style="width:251px;height:70px;border:0;"></p>
+
 <p> Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.     
 Mithilfe eines "Slider"-Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".   
 Dafür fügen wir an den "slider"-Block an die globale Variable "shared number" und benennen sie in "Number Agents" um.       
 Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden. </p>
+
+<p><img src="images/Homogen.PNG" alt="Homogen" style="width:608px;height:432px;border:0;"></p>
 
 <p> Nun können wir mit der Programmierung der homogen verteilten Epidemie beginnen.      
 Hierzu erstellen wir zunächst einen "setup"-Block, den wir in "Homogen" umbenennen.      
@@ -68,6 +74,8 @@ Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank w
 <p> In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".     
 In die "then"-Spalte setzen wir den Befehl "set color"-"blue" und setzen die boolsche Agentenvariabel mit "set ist krank"-"true" auf "wahr". <br>      
 Wenn also die Bedingung in der "test"-Spalte zutrifft wird der Agent krank/blau. </p>
+
+<p><img src="images/movement.PNG" alt="movement" style="width:494px;height:231px;border:0;"></p>
  
 <p> Damit sich die Krankheit ausbreiten kann, erstellen wir einen "forever"-Block und setzen einen Befehl für die Bewegung nach Vorne mit 1 bis 10 Schritten durch "forward"-"random"-"10" ein. <br>    
 Für die Drehung nach rechts in einem Winkel von 1-30 Grad setzen wir den Befehl "right"-"random"-"30" ein. </p>
@@ -76,6 +84,8 @@ Für die Drehung nach rechts in einem Winkel von 1-30 Grad setzen wir den Befehl
 <h3> 
 <a id="Inf">3. Infektionsherd </a>
 </h3>
+<p><img src="images/Infektionsherd.PNG" alt="Infektionsherd" style="width:413px;height:248px;border:0;"></p>
+
 <p> Um einen Agenten die Epedemie auslösen zu lassen, brauchten wir einen Infektionsherd. <br> 
 Zuerst erstellten wir einen neuen Block, den wir "Infektionsherd" nannten und fügten die Variablen "clear everyone" hinzu, um mit einer neuen Population bei einem Neustart beginnen zu können. </p>
 
@@ -85,8 +95,12 @@ Dazu setzten wir mit "set color"-"red" die Farbe der gesunden Agenten auf rot. <
 
 <p> Außerdem war ein "if then test"- Block nötig, da die Farbe sich bei einer Ensteckung ändern sollte. </p>
 
+<p><img src="images/Gleichung Infektionsherd.PNG" alt="Gleichung Infektionsherd" style="width:1032px;height:48px;border:0;"></p>
+
 <p> Nachdem wir dies getan hatten, erstellten wir eine lange Variable nach Vorlage des des Satzes des Pythagoras.
 Sie bewirkt, dass sich nur die Agenten infizieren, die sich in einem bestimmten Bereich des "Spaceland" aufhalten. </p>
+
+<p><img src="images/Ansteckungsrate.PNG" alt="Ansteckungsrate" style="width:268px;height:59px;border:0;"></p>
 
 <p> Dies geschieht in Verbindung mit der Ansteckungsrate, welche wir ja im Spaceland variabel verwenden können. Wie diese Kollision zu programmieren ist, beschreiben wir im nächsten Schritt noch genauer. </p>
 
@@ -94,6 +108,8 @@ Sie bewirkt, dass sich nur die Agenten infizieren, die sich in einem bestimmten 
 <h3>
 <a id="Ans">4. Ansteckung </a>
 </h3>
+<p><img src="images/Ansteckung.PNG" alt="Ansteckung" style="width:558px;height:274px;border:0;"></p>
+
 <p> Um sich gegenseitig anstecken zu können, müssen sich ein kranker und ein gesunder "Agent" begegnen.     
 Wir mussten also einen "Collisions"-Blog für eine Kollision zwischen zwei Agenten verwenden.     
 Um eine Bedingung für die Ansteckung einstellen zu können, setzten wir einen "if-test-then"-Block in eine freies Feld des "Collision"-Blocks. <br>     
@@ -104,13 +120,20 @@ Somit erhalten wir eine Ansteckunswahrscheinlichkeit in Prozent.
 Trifft diese Bedingung zu, soll der "Agent" erkranken.   
 Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die boolsche Agentenvariable "ist krank" mit "set ist krank" auf "true". </p>
 
+<p><img src="images/Ansteckungsrate.PNG" alt="Ansteckungsrate" style="width:268px;height:59px;border:0;"></p>
+
 <p> Die Ansteckungsrate ist mit einem "slider"-Block im Kontrollzentrum des "Spaceland" durch einen Schieberegler einstellbar.   
 Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um. </p>
 
 <h3> 
 <a id="Imm">5. Immunität </a>
 </h3>
+<p><img src="images/Homogen.PNG" alt="Homogen" style="width:608px;height:432px;border:0;"></p>
+<p><img src="images/Boolsche.PNG" alt="Boolsche" style="width:172px;height:110px;border:0;"></p>
+
 <p> Damit wir eine Immunität einrichten zu können müssen wir eine boolsche Agentenvariable für den Zustand "ist immun" erstellen. </p>
+
+<p><img src="images/movement.PNG" alt="movement" style="width:494px;height:231px;border:0;"></p>
 
 <p> Die kranken Agenten sollen nach einiger Zeit zu einer bestimmten Wahrscheinlickeit wieder gesund werden.   
 Daraufhin sollen sie immun sein. <br>   
@@ -121,6 +144,8 @@ Diese wären: <br>
 "Set color"-"green" und "set ist immun"-"true".  
 Er soll also die Farbe grün für immun annehmen, weshalb wir die boolsche Agentenvariable für "ist immun" auf "true" eingestellt haben. </p>
 
+<p><img src="images/Heilungschance.PNG" alt="Heilungschance" style="width:267px;height:57px;border:0;"></p>
+
 <p> Die Heilungschance soll wieder mit einem Schieberegler im Spacland einstellbar sein.   
 Hierzu erstellen wir einen "slider"-Block für die Heilunschance ein und setzen wieder den maximalen Wert auf "100".   
 Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Heilungschance" um. </p>
@@ -129,6 +154,8 @@ Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und
 <h3>
 <a id="Ges">6. Gesundheitszustand  </a>
 </h3>
+<p><img src="images/Gesundheitszustand.PNG" alt="Gesundheitszustand" style="width:641px;height:125px;border:0;"></p>
+
 <p> Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (rot, blau, grün).
 Damit wir die Verteilung der unterschiedlichen Gesundheitszustände (Gesund, Krank, Immun) im Blick haben können,
 erstellten wir ein Säulendiagramm, in dem wir die unterschiedlichen Mengen der Gesundheitszustände mittels Säulen
@@ -147,4 +174,8 @@ Für die immunen Agenten fuhren wir genau so fort, setzten jedoch als Bedingung 
 Nun konnte man zu Beginn der Simulation und im laufe der Simulation die Anzahl der gesunden, kranken und immunen Agenten im "Kontrollzentrum" des "Spaceland" ablesen. <br>   
 Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. </p>
 
+<p><img src="images/Grafik.PNG" alt="Grafik" style="width:620px;height:436px;border:0;"></p>
+
 <p> Startet man die Simulation einer homogenen Epidemie sieht das Bild mit den gesunden (rot), kranken (blau), und immunen (gelb) "Agenten" im "Spaceland" so aus: </p>
+
+<p><img src="images/Epidemie Grafik.PNG" alt="Epidemie Grafik" style="width:937px;height:575px;border:0;"></p>

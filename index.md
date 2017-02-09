@@ -1,13 +1,15 @@
 # Epidemie in Github Pages 
 
-<h2> StarLogoTNG </h2>
+<h2> Gliederung </h2>
 
-<h2> Homogene Epidemie </h2>
+<h3> StarLogoTNG </h3>
 
-<h2> Infektionsherd </h2>
+<h3> Homogene Epidemie </h3>
 
-<h2> Ansteckung </h2>
+<h3> Infektionsherd </h3>
 
-<h2> Immunität </h2>
+<h3> Ansteckung </h3>
 
-<h2> Gesundheitszustand </h2>
+<h3> Immunität </h3>
+
+<h3> Gesundheitszustand </h3>

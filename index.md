@@ -33,9 +33,37 @@ Auch die gut sortierten Variablen und Ordner machen das Programmieren einfach. <
 
 <p> Durch die vielen Gestaltungsmöglichkeiten ist StarLogoTNG sehr vielfältig nutzbar, wird aber nicht unübersichtlich, da das Programmierfeld am rechten oberen Rand nochmal in kleinerer Ausfühtung angezeigt wird, um den Überblick zu wahren, wenn die Variablen und Blöcke zu komplex werden. </p> 
 
+
 <h3>
 <a id="Hom">2. Homogene Epidemie </a>
 </h3>
+<p> Um eine homogene Epidemie zu erstellen, müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten. </p>
+
+<p> Als nächsten Schritt muss eine Ansteckungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll. <br>     
+Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können. <br>
+Danach setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.     
+Den maximalen Wert setzten wir dazu auf "100". <br>     
+Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen. </p>
+
+<p> Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.     
+Mithilfe eines "Slider"-Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".   
+Dafür fügen wir an den "slider"-Block an die globale Variable "shared number" und benennen sie in "Number Agents" um.       
+Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden. </p>
+
+<p> Nun können wir mit der Programmierung der homogen verteilten Epidemie beginnen.      
+Hierzu erstellen wir zunächst einen "setup"-Block, den wir in "Homogen" umbenennen.      
+Damit wir bei jedem Neustart mit einer neuen Population beginnen können, setzen wir zuerst den Befehl 
+"clear everyone" ein. <br>   
+Somit wird bei jedem Neustart über den "Homogen"-"setup"-Block im Kontrollzentrum die alte Population gelöscht.  
+Als nächstes setzen wir einen "create Agent-number-do"-Block ein. <br>    
+Über das "number"-Feld können wir die Größe der kreierten "Agenten" einstellen. <br>    
+Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "Spaceland" einstellen können.      
+In das "do"-Feld setzen wir zuerst den Befehl "set color"-"red" ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
+Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" verwendet, um die boolschen Agentenvariabeln zu initialisieren. <br>      
+Denn diese sollen für die gesunden/roten "Agenten" als falsch eingestellt sein.    
+Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank werden kann, setzen wir einen "if-test-then"-Block ein. </p>
+
+
 
 <h3> 
 <a id="Inf">3. Infektionsherd </a>

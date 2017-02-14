@@ -66,14 +66,14 @@ Somit wird bei jedem Neustart über den "Homogen"-"setup"-Block im Kontrollzentr
 Als nächstes setzen wir einen "create Agent-number-do"-Block ein. <br>    
 Über das "number"-Feld können wir die Größe der kreierten "Agenten" einstellen. <br>    
 Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "Spaceland" einstellen können.      
-In das "do"-Feld setzen wir zuerst den Befehl <p style= colour:red;> "set color"-"red" </p> ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
+In das "do"-Feld setzen wir zuerst den Befehl <p style= "colour:red";> "set color"-"red" </p> ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
 Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" verwendet, um die boolschen Agentenvariabeln zu initialisieren. <br>      
 Denn diese sollen für die  <p style= colour:red;> gesunden/roten "Agenten" </p> als falsch eingestellt sein.    
 Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank werden kann, setzen wir einen "if-test-then"-Block ein. </p>
 
 <p> In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".     
-In die "then"-Spalte setzen wir den Befehl <p style= colour:blue;> "set color"-"blue" </p> und setzen die boolsche Agentenvariabel mit "set ist krank"-"true" auf "wahr". <br>      
-Wenn also die Bedingung in der "test"-Spalte zutrifft wird der Agent <p style= colour:blue;> krank/blau </p>. </p>
+In die "then"-Spalte setzen wir den Befehl <p style= "colour:blue";> "set color"-"blue" </p> und setzen die boolsche Agentenvariabel mit "set ist krank"-"true" auf "wahr". <br>      
+Wenn also die Bedingung in der "test"-Spalte zutrifft wird der Agent <p style= "colour:blue";> krank/blau </p>. </p>
 
 <p><img src="images/movement.PNG" alt="movement" style="width:494px;height:231px;border:0;"></p>
  
@@ -91,7 +91,7 @@ Zuerst erstellten wir einen neuen Block, den wir "Infektionsherd" nannten und f�
 
 <p> Danach setzten wir unter diese Variable den Block "create agent", um den Auslöser der Epidemie zu kreieren.
 Zu diesem Block kamen die Variablen "number Agent", damit wir wie bei der homogenen Epidemie die Anzahl der Agenten im Spaceland einstellen konnten. <br>
-Dazu setzten wir mit "set color"-"red" die Farbe der gesunden Agenten auf <p style= colour:red;>rot </p>. </p>
+Dazu setzten wir mit "set color"-<p style= "colour:red";>"red"</p> die Farbe der gesunden Agenten auf <p style= "colour:red";>rot </p>. </p>
 
 <p> Außerdem war ein "if then test"- Block nötig, da die Farbe sich bei einer Ensteckung ändern sollte. </p>
 
@@ -118,7 +118,7 @@ Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichke
 In die "test"-Spalte setzten wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".  
 Somit erhalten wir eine Ansteckunswahrscheinlichkeit in Prozent.   
 Trifft diese Bedingung zu, soll der "Agent" erkranken.   
-Also setzten wir in die "then"-Spalte den Befehl <p style= colour:blue;>"set color"-blue"</p> und die boolsche Agentenvariable "ist krank" mit "set ist krank" auf "true". </p>
+Also setzten wir in die "then"-Spalte den Befehl <p style= "colour:blue";>"set color"-blue"</p> und die boolsche Agentenvariable "ist krank" mit "set ist krank" auf "true". </p>
 
 <p><img src="images/Ansteckungsrate.PNG" alt="Ansteckungsrate" style="width:268px;height:59px;border:0;"></p>
 
@@ -141,8 +141,8 @@ Dazu setzen wir in den "forever"-Block einen "if-test-then"-Block ein. <br>
 In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Heilingschance".    
 Trifft dieser ZUstand bei einem "Agenten" ein, soll er die Befehle aus der "then"-Spalte ausführen.   
 Diese wären: <br> 
-<p style= colour:green;>"Set color"-"green" </p> und "set ist immun"-"true".  
-Er soll also die Farbe <p style= colour:green;>"grün" </p> für immun annehmen, weshalb wir die boolsche Agentenvariable für "ist immun" auf "true" eingestellt haben. </p>
+<p style= "colour:green";>"Set color"-"green" </p> und "set ist immun"-"true".  
+Er soll also die Farbe <p style= "colour:green";>"grün" </p> für immun annehmen, weshalb wir die boolsche Agentenvariable für "ist immun" auf "true" eingestellt haben. </p>
 
 <p><img src="images/Heilungschance.PNG" alt="Heilungschance" style="width:267px;height:57px;border:0;"></p>
 
@@ -156,7 +156,7 @@ Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und
 </h3>
 <p><img src="images/Gesundheitszustand.PNG" alt="Gesundheitszustand" style="width:641px;height:125px;border:0;"></p>
 
-<p> Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (<p style= colour:red;>rot </p>,<p style= colour:blue;> blau </p>,<p style= colour:green;> grün</p>).
+<p> Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (<p style= "colour:red";>rot </p>,<p style= "colour:blue";> blau </p>,<p style= "colour:green";> grün</p>).
 Damit wir die Verteilung der unterschiedlichen Gesundheitszustände (Gesund, Krank, Immun) im Blick haben können,
 erstellten wir ein Säulendiagramm, in dem wir die unterschiedlichen Mengen der Gesundheitszustände mittels Säulen
 in den entsprechenden Farben ablesen können. <br>   
@@ -165,17 +165,17 @@ In den offenen "socks" konnten wir nun die Bedingungen für die einzelnen Säule
 Wir erstellten zuerst die Säule, die die Menge der gesunden "Agenten" angibt. <br>  
 Hierzu setzten wir an der "Gesundheitszustand"-Block den Befehl "count Agent with" an. 
 Die Bedingung sollte in diesem Fall sein: <br> 
-"red" "=" "color of ID"-"ID". Die Farbe des Agenten sollte also der Farbe <p style= colour:red;> "rot"</p> entsprechen, um in dieser Säule gezählt zu werden.    
+<p style= "colour:red";>"red"</p> "=" "color of ID"-"ID". Die Farbe des Agenten sollte also der Farbe <p style= "colour:red";> "rot"</p> entsprechen, um in dieser Säule gezählt zu werden.    
 Ähnlich fuhren wir bei den weiteren freien Feldern des "Gesundheitszustand"-Blocks fort.    
 Wir setzten wieder den Befehl "count Agent with" ein. <br>   
 In dieser Säule sollte aber die Anzahl der kranken "Agenten" dargestellt werden.   
-Hierzu setzten wir als Bedingung <p style= colour:blue;> "blue"</p> "=" "color of ID"-"ID" ein. <br>    
-Für die immunen Agenten fuhren wir genau so fort, setzten jedoch als Bedingung "yellow" "=" "color of ID"-"ID" ein.     
+Hierzu setzten wir als Bedingung <p style= "colour:blue";> "blue"</p> "=" "color of ID"-"ID" ein. <br>    
+Für die immunen Agenten fuhren wir genau so fort, setzten jedoch als Bedingung <p style= "colour:green";>"green" "=" "color of ID"-"ID" ein.     
 Nun konnte man zu Beginn der Simulation und im laufe der Simulation die Anzahl der gesunden, kranken und immunen Agenten im "Kontrollzentrum" des "Spaceland" ablesen. <br>   
 Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. </p>
 
 <p><img src="images/Grafik.PNG" alt="Grafik" style="width:620px;height:436px;border:0;"></p>
 
-<p> Startet man die Simulation einer homogenen Epidemie sieht das Bild mit den gesunden (<p style= colour:red;>rot</p>), kranken (<p style= colour:blue;>blau</p>), und immunen (<p style= colour:green;>grün</p>) "Agenten" im "Spaceland" so aus: </p>
+<p> Startet man die Simulation einer homogenen Epidemie sieht das Bild mit den gesunden (<p style= "colour:red";>rot</p>), kranken (<p style= "colour:blue";>blau</p>), und immunen (<p style= "colour:green";>grün</p>) "Agenten" im "Spaceland" so aus: </p>
 
 <p><img src="images/Epidemie Grafik.PNG" alt="Epidemie Grafik" style="width:937px;height:575px;border:0;"></p>

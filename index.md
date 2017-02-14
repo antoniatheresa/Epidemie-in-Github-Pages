@@ -66,7 +66,7 @@ Somit wird bei jedem Neustart über den "Homogen"-"setup"-Block im Kontrollzentr
 Als nächstes setzen wir einen "create Agent-number-do"-Block ein. <br>    
 Über das "number"-Feld können wir die Größe der kreierten "Agenten" einstellen. <br>    
 Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "Spaceland" einstellen können.      
-In das "do"-Feld setzen wir zuerst den Befehl <p style= "colour:red";> "set color"-"red" </p> ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
+In das "do"-Feld setzen wir zuerst den Befehl <p style="colour:red;"> "set color"-"red" </p> ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
 Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" verwendet, um die boolschen Agentenvariabeln zu initialisieren. <br>      
 Denn diese sollen für die  <p style= colour:red;> gesunden/roten "Agenten" </p> als falsch eingestellt sein.    
 Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank werden kann, setzen wir einen "if-test-then"-Block ein. </p>

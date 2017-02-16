@@ -193,7 +193,7 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 <thead>
 <tr>
 <th>Name</th>
-<th> align="center">Klasse</th>
+<th align="center">Klasse</th>
 <th align="center">Schule</th>
 <th align="center">Link</th>
 </tr>

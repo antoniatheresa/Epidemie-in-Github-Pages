@@ -177,7 +177,7 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 <p><img src="images/Grafik.PNG" alt="Grafik" style="width:620px;height:436px;border:0;"></p>
 
 <p> Startet man die Simulation einer homogenen Epidemie sieht das Bild mit den 
-(<p style= "color:red;">gesunden (rot)</p> 
+<p style= "color:red;">gesunden (rot)</p> 
 <p style= "color:blue;"> kranken (blau)</p>
 <p style= "color:green;">immunen (grün)</p> 
 "Agenten" im "Spaceland" so aus: </p>

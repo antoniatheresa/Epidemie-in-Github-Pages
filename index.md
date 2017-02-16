@@ -8,6 +8,7 @@
 <li><a href="#Ans">4. Ansteckungsrate</a></li>
 <li><a href="#Imm">5. Immunität</a></li>
 <li><a href="#Ges">6. Gesundheitszustand</a></li>
+<li><a href="#Imp">7. Impressum</a></li>
 </ul>
 
 <h3> 
@@ -184,6 +185,9 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 
 <p><img src="images/Epidemie Grafik.PNG" alt="Epidemie Grafik" style="width:937px;height:575px;border:0;"></p>
 
+<h3>
+<a id="Imp">7. <b>Impressum</b> </a> 
+</h3>
 
 <table>
 <thead>
@@ -195,12 +199,12 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 </thead>
 <tbody>
 <tr>
-<td>Antonia Heitmann</td>
-<td align="center">Stormarnschule Ahrensburg</td>
-<td align="center"><a href="http://stormarnschule.de/">Stormarnschule</a></td>
+<td><i>Antonia Heitmann</i></td>
+<td align="center"><i>Stormarnschule Ahrensburg</i></td>
+<td align="center"><a href="http://stormarnschule.de/">Stormarnschule </a></td>
 </tr>
 <tr>
-<td>Theresa Daniel</td>
-<td align="center">Stormarnschule Ahrensburg</td>
+<td><i>Theresa Daniel</i></td>
+<td align="center"><i>Stormarnschule Ahrensburg</i></td>
 <td align="center"><a href="http://stormarnschule.de/">Stormarnschule</a></td>
 </tr>

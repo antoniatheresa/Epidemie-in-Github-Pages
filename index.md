@@ -35,7 +35,7 @@ Auch die gut sortierten Variablen und Ordner machen das Programmieren einfach. <
 
 
 <h3>
-<a id="Hom">2. Homogene Epidemie </a>
+<a id="Hom">2. <b>Homogene Epidemie</b> </a>
 </h3>
 <p><img src="images/Boolsche.PNG" alt="Boolsche" style="width:172px;height:110px;border:0;"></p>
 
@@ -82,7 +82,7 @@ Für die Drehung nach rechts in einem Winkel von 1-30 Grad setzen wir den Befehl
 
 
 <h3> 
-<a id="Inf">3. Infektionsherd </a>
+<a id="Inf">3. <b>Infektionsherd</b> </a>
 </h3>
 <p><img src="images/Infektionsherd.PNG" alt="Infektionsherd" style="width:413px;height:248px;border:0;"></p>
 
@@ -106,7 +106,7 @@ Sie bewirkt, dass sich nur die Agenten infizieren, die sich in einem bestimmten 
 
 
 <h3>
-<a id="Ans">4. Ansteckung </a>
+<a id="Ans">4. <b>Ansteckung</b> </a>
 </h3>
 <p><img src="images/Ansteckung.PNG" alt="Ansteckung" style="width:558px;height:274px;border:0;"></p>
 
@@ -126,7 +126,7 @@ Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die bools
 Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um. </p>
 
 <h3> 
-<a id="Imm">5. Immunität </a>
+<a id="Imm">5. <b>Immunität</b> </a>
 </h3>
 <p><img src="images/Homogen.PNG" alt="Homogen" style="width:608px;height:432px;border:0;"></p>
 <p><img src="images/Boolsche.PNG" alt="Boolsche" style="width:172px;height:110px;border:0;"></p>
@@ -152,7 +152,7 @@ Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und
 
 
 <h3>
-<a id="Ges">6. Gesundheitszustand  </a>
+<a id="Ges">6. <b>Gesundheitszustand</b>  </a>
 </h3>
 <p><img src="images/Gesundheitszustand.PNG" alt="Gesundheitszustand" style="width:641px;height:125px;border:0;"></p>
 

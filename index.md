@@ -103,7 +103,7 @@ Sie bewirkt, dass sich nur die Agenten infizieren, die sich in einem bestimmten 
 
 <p><img src="images/Ansteckungsrate.PNG" alt="Ansteckungsrate" style="width:268px;height:59px;border:0;"></p>
 
-<p> Dies geschieht in Verbindung mit der Ansteckungsrate, welche wir ja im Spaceland variabel verwenden können. Wie diese Kollision zu programmieren ist, wird im nächsten Schritt noch genauer beschrieben. </p>
+<p> Dies geschieht in Verbindung mit der Ansteckungsrate, welche im Spaceland variabel verwendet werden kann. Wie diese Kollision zu programmieren ist, wird im nächsten Schritt noch genauer beschrieben. </p>
 
 
 <h3>

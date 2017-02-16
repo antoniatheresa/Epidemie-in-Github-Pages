@@ -40,32 +40,32 @@ Auch die gut sortierten Variablen und Ordner machen das Programmieren einfach. <
 </h3>
 <p><img src="images/Boolsche.PNG" alt="Boolsche" style="width:172px;height:110px;border:0;"></p>
 
-<p> Um eine homogene Epidemie zu erstellen, müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten. </p>
+<p> Um eine homogene Epidemie zu erstellen, muss man zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten. </p>
 
 <p><img src="images/Ansteckungsrate.PNG" alt="Ansteckungsrate" style="width:268px;height:59px;border:0;"></p>
 
 <p> Als nächsten Schritt muss eine Ansteckungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll. <br>     
-Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können. <br>
-Danach setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.     
-Den maximalen Wert setzten wir dazu auf "100". <br>     
-Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen. </p>
+Dazu erstellt man einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können. <br>
+Danach wird an den "slider"-Block die globale Variable "shared number" gesetzt und sie in "Ansteckungsrate" umbenannt.     
+Der maximalen Wert muss dazu auf "100" angehoben werden. <br>     
+Im Kontrollzentrum des "Spaceland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen. </p>
 
 <p><img src="images/Giraffen.PNG" alt="Giraffen" style="width:251px;height:70px;border:0;"></p>
 
-<p> Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.     
-Mithilfe eines "Slider"-Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".   
-Dafür fügen wir an den "slider"-Block an die globale Variable "shared number" und benennen sie in "Number Agents" um.       
+<p> Wie mit der Ansteckungsrate, sollte man mit der Anzahl der Giraffen, also der Populationsgröße fortfahren.     
+Mithilfe eines "Slider"-Blocks und der Bedingung "Number Agents", wird die maximale Populationsgröße auf 100 Giraffen/"Agenten" gesetzt.   
+Dafür fügt man an den "slider"-Block an die globale Variable "shared number" und benennt sie in "Number Agents" um.       
 Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden. </p>
 
 <p><img src="images/Homogen.PNG" alt="Homogen" style="width:608px;height:432px;border:0;"></p>
 
-<p> Nun können wir mit der Programmierung der homogen verteilten Epidemie beginnen.      
-Hierzu erstellen wir zunächst einen "setup"-Block, den wir in "Homogen" umbenennen.      
-Damit wir bei jedem Neustart mit einer neuen Population beginnen können, setzen wir zuerst den Befehl 
+<p> Nun kann mit der Programmierung der homogen verteilten Epidemie begonnen werden.      
+Hierzu erstellt man zunächst einen "setup"-Block, der in "Homogen" umbenannt wird.      
+Damit bei jedem Neustart mit einer neuen Population begonnen werden kann, setzt man zuerst den Befehl 
 "clear everyone" ein. <br>   
 Somit wird bei jedem Neustart über den "Homogen"-"setup"-Block im Kontrollzentrum die alte Population gelöscht.  
-Als nächstes setzen wir einen "create Agent-number-do"-Block ein. <br>    
-Über das "number"-Feld können wir die Größe der kreierten "Agenten" einstellen. <br>    
+Als Nächstes ist es sinnvoll,  einen "create Agent-number-do"-Block einzusetzten. <br>    
+Über das "number"-Feld wird die Größe der kreierten "Agenten" eingestellt. <br>    
 Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "Spaceland" einstellen können.      
 In das "do"-Feld setzen wir zuerst den Befehl "set color"-"red" ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
 Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" verwendet, um die boolschen Agentenvariabeln zu initialisieren. <br>      

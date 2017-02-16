@@ -183,3 +183,24 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 "Agenten" im "Spaceland" so aus: </p>
 
 <p><img src="images/Epidemie Grafik.PNG" alt="Epidemie Grafik" style="width:937px;height:575px;border:0;"></p>
+
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="center">Schule</th>
+<th align="center">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Antonia Heitmann</td>
+<td align="center">Stormarnschule Ahrensburg</td>
+<td align="center"><a href="http://stormarnschule.de/">Stormarnschule</a></td>
+</tr>
+<tr>
+<td>Theresa Daniel</td>
+<td align="center">Stormarnschule Ahrensburg</td>
+<td align="center"><a href="http://stormarnschule.de/">Stormarnschule</a></td>
+</tr>

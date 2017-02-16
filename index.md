@@ -1,6 +1,6 @@
 # Epidemie in Github Pages 
 
-<h2> Gliederung </h2>
+<h2><b> Gliederung</b> </h2>
 <ul>
 <li><a href="#Sta">1. StarLogoTNG</a></li>
 <li><a href="#Hom">2. Homogene Epidemie</a></li>
@@ -11,7 +11,7 @@
 </ul>
 
 <h3> 
-<a id="Sta">1. StarLogoTNG </a> 
+<a id="Sta">1. <b>StarLogoTNG</b> </a> 
 </h3>
 <p> StarLogoTNG ist ein Simulationsprogramm für die Blockprogrammiersprache.     
 Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfeld und dem Spaceland, wo man die Aktionen und Fortschritte der Agenten verfolgen kann. </p>

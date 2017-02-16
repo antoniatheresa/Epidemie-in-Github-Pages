@@ -193,6 +193,7 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 <thead>
 <tr>
 <th>Name</th>
+<th> align="center">Klasse</th>
 <th align="center">Schule</th>
 <th align="center">Link</th>
 </tr>
@@ -200,11 +201,13 @@ Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. <
 <tbody>
 <tr>
 <td><i>Antonia Heitmann</i></td>
+<td align="center"><i>12a</i></td>
 <td align="center"><i>Stormarnschule Ahrensburg</i></td>
 <td align="center"><a href="http://stormarnschule.de/">Stormarnschule </a></td>
 </tr>
 <tr>
 <td><i>Theresa Daniel</i></td>
+<td align="center"><i>12a</i></td>
 <td align="center"><i>Stormarnschule Ahrensburg</i></td>
 <td align="center"><a href="http://stormarnschule.de/">Stormarnschule</a></td>
 </tr>

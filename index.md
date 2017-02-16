@@ -15,7 +15,7 @@
 <a id="Sta">1. <b>StarLogoTNG</b> </a> 
 </h3>
 <p> StarLogoTNG ist ein Simulationsprogramm für die Blockprogrammiersprache.     
-Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfeld und dem Spaceland, wo man die Aktionen und Fortschritte der Agenten verfolgen kann. </p>
+Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfeld und dem Spaceland, in denen man die Aktionen und Fortschritte der Agenten verfolgen kann. </p>
 
 <p> Die Agenten können mehrere Formen annehmen und so individuell eingestellt werden.      
 Auch die Umgebung kann durch Gebäude, Pflanzen und andere Gegenstände ergänzt werden.      

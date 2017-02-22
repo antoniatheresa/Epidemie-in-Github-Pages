@@ -157,7 +157,7 @@ Dafür fügt man an den "slider"-Block die globale Variable "shared number" hinz
 </h3>
 <p><img src="images/Gesundheitszustand.PNG" alt="Gesundheitszustand" style="width:641px;height:125px;border:0;"></p>
 
-<p> Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (rot, blau, grün).
+<p> Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (rot, blau, grün). <br>
 Damit die Verteilung der unterschiedlichen Gesundheitszustände (Gesund, Krank, Immun) auf einen Blick dargestellt wird, ist es sinnvoll, ein Säulendiagramm zu erstellen, in dem die unterschiedlichen Mengen der Gesundheitszustände mittels Säulen
 in den entsprechenden Farben abgelesen werden können. <br>   
 Hierzu muss zunächst ein "bar graph"-Block erstellt werden, der zuerst in "Gesundheitszustand" umbenannt wird.   
